@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(110 89 108);
+}
+
+h1, .bigImage{
+    text-align: center;
+}
+
+h1{
+    font-family: "Dancing Script";
+    font-weight: 700;
+    font-size: 90px;
+    color: #fa8787;
+}
+
+img{
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+#mainImage{
+    border-radius: 100px;
+    border: solid 50px #c29494;
+    cursor:auto;
+}
+
+li{
+    list-style-type: none;
+}
+
+figcaption{
+    margin-top: 20px;
+    font-family: "Dancing Script";
+    font-weight: 700;
+    font-size: 50px;
+    color: #cdccf8;
+}
+
+.smallImage{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+li img:hover{
+    scale: 1.1;
+    transition: 0.5s;
+}
+
